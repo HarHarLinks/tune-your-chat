@@ -1,0 +1,1102 @@
+[[tunes]]
+name = "Matrix Reminder Bot"
+description = "A bot to remind you about stuff."
+author = "anoa, HarHarLinks"
+maturity = "unknown"
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://github.com/anoadragon453/matrix-reminder-bot"
+room = "#matrix-reminder-bot:amorgan.xyz"
+tags = ["bot"]
+
+[[tunes]]
+name = "Maubot"
+description = "A plugin-based Matrix bot system."
+author = "tulir"
+maturity = "unknown"
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://github.com/maubot/maubot"
+website = "https://mau.bot/"
+room = "#maubot:maunium.net"
+tags = ["bot"]
+
+[[tunes]]
+name = "Maunium Sticker Picker"
+description = "A fast and simple Matrix sticker picker widget. Tested on Element Web, Android & iOS."
+author = "tulir"
+maturity = "unknown"
+language = "JavaScript, Python"
+licence = "AGPL-3.0"
+repository = "https://github.com/maunium/stickerpicker"
+room = "#stickerpicker:maunium.net"
+tags = ["sticker", "widget"]
+
+[[tunes]]
+name = "mstickereditor"
+description = "Import sticker packs from telegram, to be used at the Maunium sticker picker for Matrix."
+author = "LuckyTurtleDev"
+maturity = "unknown"
+language = "Rust"
+licence = "Apache-2.0"
+repository = "https://github.com/LuckyTurtleDev/mstickereditor"
+room = "none"
+tags = ["sticker", "tool", "addon"]
+
+[[tunes]]
+name = "docker-stickerpicker"
+description = "Docker container to host https://github.com/maunium/stickerpicker with a self-hosted s3 backend."
+author = "msrd0"
+maturity = "unknown"
+language = "Rust"
+licence = "GPL-3.0"
+repository = "https://github.com/msrd0/docker-stickerpicker"
+room = ""
+tags = ["sticker", "tool", "addon"]
+
+[[tunes]]
+name = "[Matrix] Sticker Helper"
+description = "User-friendly way of managing sticker packs on Matrix, that could also work well for other people, after finding the maunium/stickerpicker import procedure uncomfortable."
+author = "OctoSpacc"
+maturity = "unknown"
+language = ""
+licence = ""
+repository = "https://hub.octt.eu.org/MatrixStickerHelper/"
+room = ""
+tags = ["sticker", "tool", "addon"]
+
+[[tunes]]
+name = "Matrix Sticker Setup"
+description = ""
+author = "weeman"
+maturity = "unknown"
+language = "JavaScript"
+licence = ""
+repository = "https://chaos.expert/ccc-ffm/matrix-sticker-setup"
+website = "https://sticker.chaos.gratis/setup/"
+room = ""
+tags = ["sticker", "tool", "addon"]
+
+[[tunes]]
+name = "stickerbridge"
+description = "Telegram -> Matrix stickerpack importer"
+author = "Didek"
+maturity = "unknown"
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://codeberg.org/Didek/stickerbridge"
+room = ""
+tags = ["sticker", "tool", "MSC2545"]
+
+[[tunes]]
+name = "matrix-emoji-autoupload"
+description = "Automated emoji uploader for Matrix."
+author = "Natty"
+maturity = "unknown"
+language = "Python"
+licence = ""
+repository = "https://git.astolfo.cool/natty/matrix-emoji-autoupload"
+room = ""
+tags = ["sticker", "tool", "MSC2545"]
+
+[[tunes]]
+name = "Hookshot"
+description = "A bridge between Matrix and multiple project management services, such as GitHub, GitLab and JIRA."
+author = "Half-Shot"
+maturity = "stable"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/matrix-org/matrix-hookshot/"
+room = "https://matrix.to/#/#hookshot:half-shot.uk"
+tags = ["webhook", "admin", "GitHub", "GitLab", "Jira", "Figma", "RSS"]
+
+[[tunes]]
+name = "Matrix Webhook Receiver"
+description = "Companion 'receiver' to matrix-appservice-webhooks (https://github.com/turt2live/matrix-appservice-webhooks)."
+author = "HarHarLinks"
+maturity = ""
+language = "Python"
+licence = "GPL-3.0"
+repository = "https://github.com/HarHarLinks/matrix-webhook-receiver"
+room = "#matrix-webhook-receiver:matrix.org"
+tags = ["webhook", "admin"]
+
+[[tunes]]
+name = "matrix-webhook-gateway"
+description = "Webhook gateway for Matrix / Synapse. Create and manage webhooks in Matrix channels for multiple services."
+author = "geluk"
+maturity = ""
+language = "TypeScript"
+licence = "MIT"
+repository = "https://github.com/geluk/matrix-webhook-gateway"
+room = ""
+tags = ["webhook", "admin"]
+
+[[tunes]]
+name = "Grafana to Matrix Forwarder"
+description = "Forward alerts from Grafana to a Matrix chat room"
+author = "hectorjsmith"
+maturity = ""
+language = "Go"
+licence = "AGPL-3.0"
+repository = "https://gitlab.com/hectorjsmith/grafana-matrix-forwarder"
+room = ""
+tags = ["Grafana", "admin"]
+library = "mautrix-go"
+
+[[tunes]]
+name = "http2matrix"
+description = "Small bot forwarding messages from HTTP requests to Matrix"
+author = "thelazt, hdbhm"
+maturity = ""
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://github.com/i4/http2matrix"
+room = ""
+tags = ["webhook", "snom 320 VoIP"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "room-architect"
+description = "A Matrix bot for setting and keeping the same power levels across a bunch of rooms."
+author = "herkulessi"
+maturity = ""
+language = "JavaScript"
+licence = "MIT"
+repository = "https://codeberg.org/herkulessi/room-architect"
+room = ""
+tags = ["power levels", "community management"]
+library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "Matrix daily calendar"
+description = "Sends a Matrix message with a summary of your calendar entries for the day."
+author = "uhoreg"
+maturity = ""
+language = "Python"
+licence = "WTFPL"
+repository = "https://gitlab.com/uhoreg/matrix_daily_calendar"
+room = ""
+tags = ["CalDav"]
+library = ""
+
+[[tunes]]
+name = "Matrix event calendar"
+description = "Reads CalDav calendars and sends a Matrix message with announcements for your upcoming calendar entries."
+author = "HarHarLinks"
+maturity = ""
+language = "Python"
+licence = "WTFPL"
+repository = "https://gitlab.com/HarHarLinks/matrix_event_calendar"
+room = ""
+tags = ["CalDav"]
+library = ""
+
+[[tunes]]
+name = "matrix-calendar-bot"
+description = "View your calendar and receive reminders for events with the help of a Matrix bot "
+author = "rreuvekamp, MTRNord"
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://github.com/MTRNord/matrix-calendar-bot"
+room = ""
+tags = ["CalDav", "iCal"]
+library = "mautrix-go"
+
+[[tunes]]
+name = "nbspeventbot"
+description = "This is a matrix bot to parse events from a calendar file/address and post martrix messages containing event information."
+author = "chaotikum"
+maturity = ""
+language = "Python"
+licence = ""
+repository = "https://git.chaotikum.org/chaotikum/infra/nbspeventbot"
+room = ""
+tags = ["iCal", "hackspace", "event"]
+library = ""
+
+[[tunes]]
+name = "time-to-matrix"
+description = "A time-like command that will send end of an arbitrary command output and some other info (like exit status) to matrix room."
+author = "aine"
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://github.com/etkecc/ttm"
+website = ""
+room = "#ttm:etke.cc"
+tags = ["cli", "tool", "admin", "monitoring"]
+library = ""
+
+[[tunes]]
+name = "pipe2matrix"
+description = "Redirects standard input/output of a command into a Matrix room."
+author = "Anton Molyboha"
+maturity = ""
+language = "Python"
+licence = "GPL-3.0"
+repository = "https://gitlab.com/anton.molyboha/pipe2matrix"
+website = ""
+room = ""
+tags = ["cli", "tool", "admin", "monitoring"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "Apprise"
+description = "Apprise allows you to send a notification to almost all of the most popular notification services available to us today."
+author = "caronc"
+maturity = "stable"
+language = "Python"
+licence = "BSD-2-clause"
+repository = "https://github.com/caronc/apprise"
+website = ""
+room = ""
+tags = ["cli", "SDK", "tool", "admin", "monitoring"]
+library = ""
+
+[[tunes]]
+name = "shoutrrr"
+description = "Notification library for gophers and their furry friends. "
+author = "containrrr"
+maturity = ""
+language = "Go"
+licence = "MIT"
+repository = "https://github.com/containrrr/shoutrrr"
+website = "https://containrrr.dev/shoutrrr/"
+room = ""
+tags = ["cli", "SDK", "tool", "admin", "monitoring"]
+library = ""
+
+[[tunes]]
+name = "Matrix-Alertmanager"
+description = "A bot to receive Alertmanager webhook events and forward them to chosen rooms."
+author = "jaywink"
+maturity = ""
+language = "JavaScript"
+licence = "MIT"
+repository = "https://github.com/jaywink/matrix-alertmanager"
+website = ""
+room = ""
+tags = ["Alertmanager", "monitoring", "admin"]
+library = "matrix-js-sdk"
+
+[[tunes]]
+name = "jackal"
+description = "jackal is a watchdog - it polls for prometheus alerts & barks in a matrix channel to alert people of alerts that are firing."
+author = "cyberia"
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://git.cyberia.club/cyberia/jackal"
+website = ""
+room = ""
+tags = ["Prometheus", "monitoring", "admin"]
+library = "gomatrix"
+
+[[tunes]]
+name = "mnotify"
+description = "mnotify is a simple cli for the matrix chat system. It was developed for the use case of sending notifications from a headless server."
+author = "rumpelsepp"
+maturity = ""
+language = "Rust"
+licence = "MIT"
+repository = "https://github.com/rumpelsepp/mnotify"
+website = ""
+room = "#mnotify:hackbrettl.de"
+tags = ["cli", "tool", "admin", "monitoring"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "matrix-loggo-doggo"
+description = "Program to monitor a directory for changes, match on a filter-list, and send a message about any matches into a matrix room. Useful for monitoring a log file for specific events."
+author = ""
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://github.com/mplsbugbounty/matrix-loggo-doggo"
+website = ""
+room = ""
+tags = ["admin", "monitoring"]
+library = "mautrix-go"
+
+[[tunes]]
+name = "Uptime Kuma"
+description = "Uptime Kuma is an easy-to-use self-hosted monitoring tool."
+author = "louislam"
+maturity = "stable"
+language = "JavaScript"
+licence = "MIT"
+repository = "https://github.com/louislam/uptime-kuma/blob/master/src/components/notifications/Matrix.vue"
+website = "https://uptime.kuma.pet/"
+room = ""
+tags = ["admin", "monitoring"]
+library = ""
+
+[[tunes]]
+name = "Home Assistant"
+description = "This integration allows you to send messages to matrix rooms, as well as to react to messages in matrix rooms."
+author = "PaarthShah"
+maturity = ""
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://github.com/home-assistant/core/tree/dev/homeassistant/components/matrix"
+website = "https://www.home-assistant.io/integrations/matrix/"
+room = ""
+tags = ["IoT"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "Matrix Notifier for OctoPrint"
+description = "An octpront plugin for sending matrix notifications and snapshots. "
+author = "Cadair"
+maturity = ""
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://github.com/Cadair/octoprint-matrix-notifier-plugin"
+website = "https://plugins.octoprint.org/plugins/matrix_notifier/"
+room = ""
+tags = ["IoT"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "youtube-dl_bot"
+description = "Matrix bot based on Opsdroid to trigger a download via youtube-dl REST service."
+author = "Oleg Fiksel"
+maturity = ""
+language = "Python"
+licence = "MIT"
+repository = "https://gitlab.com/olegfiksel/youtube-dl_bot"
+website = ""
+room = "youtube-dl_bot:fiksel.info"
+tags = ["bot"]
+library = ""
+
+[[tunes]]
+name = "Synapse Server Notice Broadcast"
+description = "Send Server Notices to a list of users"
+author = "HarHarLinks"
+maturity = ""
+language = "Bash"
+licence = ""
+repository = "https://gist.github.com/HarHarLinks/5eedfbac6e0bc19f41b58be6087524c0"
+website = ""
+room = ""
+tags = ["admin", "tool"]
+library = ""
+
+[[tunes]]
+name = "Matrix OpenWeatherMap Bot"
+description = "Send OpenWeatherMap forecasts to Matrix using Apprise."
+author = "HarHarLinks"
+maturity = ""
+language = "Python"
+licence = "NWHML"
+repository = "https://gitdub.sosnowkadub.de/kim/matrix-openweathermap-bot"
+website = ""
+room = ""
+tags = ["weather"]
+library = ""
+
+[[tunes]]
+name = "matrix-commit"
+description = "A Github Action for sending messages to a Matrix Room."
+author = "imbev"
+maturity = ""
+language = "Python"
+licence = "MIT"
+repository = "https://github.com/i10b/matrix-commit"
+website = ""
+room = ""
+tags = ["GitHub"]
+library = "simplematrixbotlib"
+
+[[tunes]]
+name = "poll-reader"
+description = "This 'bot' allows you to analyse the answers sent to polls in [matrix] rooms."
+author = "HarHarLinks"
+maturity = "alpha"
+language = "JavaScript"
+licence = "Unlicense"
+repository = "https://github.com/HarHarLinks/poll-reader"
+website = ""
+room = ""
+tags = ["poll"]
+library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "NeoChoice"
+description = "This widget allows to conduct polls in Matrix rooms."
+author = "Nordeck"
+maturity = "stable"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/nordeck/matrix-poll"
+website = "https://nordeck.net/element-widgets/"
+room = "#nordeck:matrix.org"
+tags = ["poll", "productivity", "widget"]
+library = "matrix-widget-toolkit"
+
+[[tunes]]
+name = "Matrix Vacation Responder"
+description = "Vacation Responder for Matrix"
+author = "Sumner Evans"
+maturity = ""
+language = "Go"
+licence = "AGPL-3.0"
+repository = "https://github.com/beeper/matrix-vacation-responder"
+website = ""
+room = "#matrix-vacation-responder:nevarro.space"
+tags = ["bot"]
+library = ""
+
+[[tunes]]
+name = "hebbot"
+description = "A Matrix bot which can help to generate periodic / recurrent summary blog posts (also known as 'This Week in X')."
+author = "haecker-felix"
+maturity = ""
+language = "Rust"
+licence = "AGPL-3.0"
+repository = "https://github.com/haecker-felix/hebbot"
+website = ""
+room = "#hebbot:haecker.io"
+tags = ["bot"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Draupnir"
+description = "A Matrix moderation bot."
+author = "Gnuxie"
+maturity = ""
+language = "TypeScript"
+licence = "AFL-3.0"
+repository = "https://github.com/the-draupnir-project/Draupnir"
+website = "https://the-draupnir-project.github.io/draupnir-documentation/"
+room = "#draupnir:matrix.org"
+tags = ["community management", "bot", "moderation"]
+library = ""
+
+[[tunes]]
+name = "Matrix Wrench"
+description = "Webapp to tweak Matrix rooms."
+author = "jaller94"
+maturity = "alpha"
+language = "JavaScript"
+licence = "Apache-2.0"
+repository = "https://gitlab.com/jaller94/matrix-wrench"
+website = "https://matrix-wrench.chrpaul.de"
+room = ""
+tags = ["tool", "admin", "moderation", "community management"]
+library = ""
+
+[[tunes]]
+name = "Miki"
+description = "The Matrix Wiki"
+author = "MTRNord"
+maturity = "obsolete"
+language = ""
+licence = ""
+repository = ""
+website = "https://miki.community/"
+room = ""
+tags = ["wiki", "knowledgebase"]
+library = ""
+
+
+[[tunes]]
+name = "Miki Forum"
+description = "The Matrix Wiki Forum"
+author = "MTRNord"
+maturity = "obsolete"
+language = ""
+licence = ""
+repository = ""
+website = "https://forum.miki.community"
+room = ""
+tags = ["forum", "knowledgebase"]
+library = ""
+
+[[tunes]]
+name = "slack-matrix-migration"
+description = "A tool to import a Slack export into a Matrix homeserver."
+author = "Awesome Technologies"
+maturity = "beta"
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://github.com/Awesome-Technologies/slack-matrix-migration"
+website = ""
+room = ""
+tags = ["Slack", "migration", "community management"]
+library = ""
+
+[[tunes]]
+name = "slack-matrix-migration"
+description = "Migrates Users, Channels and all the conversations from a Slack export to Matrix."
+author = "Sapian"
+maturity = "beta"
+language = "Python"
+licence = "?" # https://github.com/sapianco/slack-matrix-migration/issues/5
+repository = "https://github.com/sapianco/slack-matrix-migration"
+website = "https://slack2matrix.sapian.cloud"
+room = ""
+tags = ["Slack", "migration", "community management"]
+library = ""
+
+[[tunes]]
+name = "Making Your Org Move Communications from Discord to Matrix - Lessons Learned"
+description = ""
+author = "Franziska Heintel"
+maturity = ""
+language = "English"
+licence = ""
+repository = ""
+website = "https://summit2023.matrixmeetup.de/conference/talk/7KBHAZ/"
+room = ""
+tags = ["discord", "migration", "video", "talk", "community management"]
+library = ""
+
+[[tunes]]
+name = "Migrating the WordPress Community from Slack to Matrix"
+description = ""
+author = "Alex Kirk"
+maturity = ""
+language = "English"
+licence = ""
+repository = ""
+website = "https://summit2023.matrixmeetup.de/conference/talk/MHJ8G9/"
+room = ""
+tags = ["Slack", "migration", "video", "talk", "community management"]
+library = ""
+
+[[tunes]]
+name = "Migrating from EMS to self-hosted Matrix"
+description = ""
+author = "Josh Simmons"
+maturity = ""
+language = "English"
+licence = ""
+repository = ""
+website = "https://matrix.org/blog/2024/01/migrating-from-ems-to-selfhosted-matrix/"
+room = ""
+tags = ["migration", "EMS", "homeserver", "selfhosting", "ansible", "docker"]
+library = ""
+
+[[tunes]]
+name = "Simple-Matrix-Bot-Lib"
+description = "An easy to use bot library for the Matrix ecosystem written in Python."
+author = "imbev"
+maturity = "stable"
+language = "Python"
+licence = "MIT"
+repository = "https://codeberg.org/imbev/simplematrixbotlib/"
+website = ""
+room = "#simplematrixbotlib:matrix.org"
+tags = ["SDK", "bot", "library"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "matrix-bot-sdk"
+description = "TypeScript/JavaScript SDK for Matrix bots."
+author = "turt2live"
+maturity = "stable"
+language = "TypeScript"
+licence = "MIT"
+repository = "https://github.com/turt2live/matrix-bot-sdk"
+website = "https://turt2live.github.io/matrix-bot-sdk/index.html"
+room = "#matrix-bot-sdk:t2bot.io"
+tags = ["SDK", "bot", "library"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "matrix-zammad"
+description = "A bot for forwarding Zammad ticket notifications into Matrix."
+author = "Half-Shot"
+maturity = "obsolete"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/Half-Shot/matrix-zammad"
+website = ""
+room = ""
+tags = ["zammad"]
+library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "Synapse admin ui"
+description = "Admin console for synapse Matrix homeserver."
+author = "Awesome Technologies"
+maturity = "stable"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/Awesome-Technologies/synapse-admin"
+website = "https://awesome-technologies.github.io/synapse-admin/#/login"
+room = ""
+tags = ["admin", "synapse"]
+library = ""
+
+[[tunes]]
+name = "Synapse admin ui"
+description = "Admin console for synapse Matrix homeserver with additional features."
+author = "Awesome Technologies"
+maturity = "stable"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/etkecc/synapse-admin"
+website = "https://admin.etke.cc"
+room = ""
+tags = ["admin", "synapse", "tool"]
+library = ""
+
+[[tunes]]
+name = "synadm"
+description = "A CLI tool to help admins of Matrix-Synapse homeservers conveniently issue commands available via its Admin API."
+author = "JOJ0"
+maturity = ""
+language = "Python"
+licence = "GPL-3.0"
+repository = "https://github.com/JOJ0/synadm"
+website = "https://synadm.readthedocs.io/"
+room = "#synadm:peek-a-boo.at"
+tags = ["admin", "synapse", "cli", "tool"]
+library = ""
+
+[[tunes]]
+name = "Matrix VOIP Tester"
+description = "This is a work-in-progress VoIP test utility for Matrix."
+author = "reivilibre"
+maturity = "obsolete"
+language = "JavaScript"
+licence = "Apache-2.0"
+repository = "https://github.com/matrix-org/voip-tester"
+website = "https://test.voip.librepush.net"
+room = ""
+tags = ["admin", "tool", "voip", "TURN/STUN"]
+library = ""
+
+[[tunes]]
+name = "Matrix Federation Tester"
+description = "The Matrix Federation Tester can help debug your Matrix instance."
+author = ""
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://github.com/matrix-org/matrix-federation-tester"
+website = "https://federationtester.matrix.org"
+room = ""
+tags = ["admin", "tool", "federation", "tool"]
+library = "gomatrixserverlib"
+
+[[tunes]]
+name = "EMS Matrix Migration"
+description = "This tool will attempt to migrate an old Matrix account to a new (already created) account."
+author = "Element"
+maturity = "beta"
+language = ""
+licence = "proprietary"
+repository = ""
+website = "https://ems.element.io/tools/matrix-migration"
+room = ""
+tags = ["migration", "EMS", "tool"]
+library = ""
+
+[[tunes]]
+name = "EMS Migration Tools"
+description = ""
+author = "Element"
+maturity = ""
+language = ""
+licence = "proprietary"
+repository = ""
+website = "https://ems.element.io/tools/account-migration"
+room = ""
+tags = ["migration", "EMS", "Slack", "Rocket.Chat", "FlowDock", "tool"]
+library = ""
+
+[[tunes]]
+name = "matrix migrate"
+description = "CLI to migrate your matrix account from one to the other."
+author = "Acter"
+maturity = ""
+language = "Rust"
+licence = ""
+repository = "https://github.com/acterglobal/matrix-migrate/"
+website = ""
+room = ""
+tags = ["migration", "cli", "tool"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Matrix Migrate Tool"
+description = "A tool to migrate to a new matrix homeserver."
+author = "strifel"
+maturity = "alpha"
+language = "Rust"
+licence = ""
+repository = "https://github.com/strifel/matrix-migrate-tool/"
+website = ""
+room = ""
+tags = ["migration", "cli", "tool"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Matrix Migrator"
+description = "Move (parts of) your Matrix account to another account."
+author = "tadzik"
+maturity = ""
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/tadzik/matrix-migrator"
+website = ""
+room = "#matrix-migrator:tadzik.net"
+tags = ["migration", "tool"]
+library = "matrix-js-sdk"
+
+[[tunes]]
+name = "Matrix Message Decrypter"
+description = "Decrypt Matrix Megolm messages using E2E key backups."
+author = "vidister"
+maturity = ""
+language = "Rust"
+licence = "GPL-3.0"
+repository = "https://github.com/vidister/matrix-message-decrypter"
+website = ""
+room = ""
+tags = ["migration", "tool", "e2ee"]
+library = "vodozemac"
+
+[[tunes]]
+name = "megolm_backup.py"
+description = "This script can be used to modify your offline megolm key backups from a shell."
+author = "cyphar"
+maturity = ""
+language = "Python"
+licence = "GPL-3.0"
+repository = "https://github.com/cyphar/matrix-utils/"
+website = ""
+room = ""
+tags = ["migration", "tool", "e2ee", "backup"]
+library = ""
+
+[[tunes]]
+name = "matrix-media-event-decrypt"
+description = "Decrypt [matrix] media manually using event JSON obtained from a client."
+author = "networkException"
+maturity = ""
+language = "Rust"
+licence = "BSD-2-clause"
+repository = "https://git.nwex.de/networkException/matrix-media-event-decrypt"
+website = ""
+room = ""
+tags = ["tool", "e2ee", "media"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Maunium Matrix room alias proxy"
+description = "Allows creating room addresses with vanity domains without having to run a full-blown Matrix homeserver."
+author = "tulir"
+maturity = ""
+language = "Go"
+licence = "AGPL-3.0"
+repository = "https://github.com/tulir/mauliasproxy"
+website = ""
+room = "#maunium:mau.dev"
+tags = ["tool", "selfhosting", "admin", "community management"]
+library = ""
+
+[[tunes]]
+name = "matrix-invite"
+description = "Invitation system for a Matrix homeserver. Uses a bot and an HTTP interface."
+author = "reivilibre"
+maturity = ""
+language = "Python, "
+licence = "MIT"
+repository = "https://gitlab.com/reivilibre/matrix-invite"
+website = ""
+room = ""
+tags = ["tool", "admin", "selfhosting", "registration"]
+library = ""
+
+[[tunes]]
+name = "matrix-register-bot"
+description = "Bot that offers two step registrations to a matrix-synapse server."
+author = "krombel"
+maturity = ""
+language = "PHP"
+licence = "Apache-2.0"
+repository = "https://github.com/krombel/matrix-register-bot"
+website = ""
+room = "#matrix-register-bot:msg-net.de"
+tags = ["tool", "admin", "selfhosting", "registration"]
+library = ""
+
+[[tunes]]
+name = "matrix-registration"
+description = "A simple Python application enabling token-based registration for matrix servers."
+author = "zeratax"
+maturity = ""
+language = "Python"
+licence = "MIT"
+repository = "https://github.com/zeratax/matrix-registration"
+website = "https://zeratax.github.io/matrix-registration/"
+room = "#matrix-registration:dmnd.sh"
+tags = ["tool", "admin", "selfhosting", "registration"]
+library = ""
+
+[[tunes]]
+name = "Matrix Registration Bot"
+description = "A bot that is used to create and manage registration tokens for a matrix server."
+author = "moan0s"
+maturity = ""
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://github.com/moan0s/matrix-registration-bot"
+website = ""
+room = "#matrix-registration-bot:hyteck.de"
+tags = ["tool", "admin", "selfhosting", "registration"]
+library = "simplematrixbotlib"
+
+[[tunes]]
+name = "The Matrix Ecosystem"
+description = ""
+author = "Matrix.org"
+maturity = ""
+language = "English"
+licence = "Apache-2.0, CC-BY-SA-4.0"
+repository = "https://github.com/matrix-org/matrix.org"
+website = "https://matrix.org/ecosystem/"
+room = "#matrix.org-website:matrix.org"
+tags = ["list"]
+library = ""
+
+[[tunes]]
+name = "Built with nio"
+description = "List of projects built with the Python matrix-nio library."
+author = "matrix-nio maintainers"
+maturity = ""
+language = "English"
+licence = "Apache-2.0"
+repository = ""
+website = "https://github.com/matrix-nio/matrix-nio/blob/main/doc/built-with-nio.rst"
+room = "#nio:matrix.org"
+tags = ["list"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "matrix-docker-ansible-deploy"
+description = "Matrix server setup using Ansible and Docker."
+author = "Slavi Pantaleev"
+maturity = "stable"
+language = "Ansible"
+licence = "AGPL-3.0"
+repository = "https://github.com/spantaleev/matrix-docker-ansible-deploy"
+website = ""
+room = "#matrix-docker-ansible-deploy:devture.com"
+tags = ["ansible", "docker", "selfhosting", "admin", "list"]
+library = ""
+
+[[tunes]]
+name = "Fedora Matrix Bots"
+description = "Issue tracking & Development Envrionment for Fedora Matrix Bots."
+author = "fedora-infra maintainers"
+maturity = ""
+language = "English"
+licence = "MIT"
+repository = "https://github.com/fedora-infra/matrix-bots"
+website = ""
+room = ""
+tags = ["list", "bot"]
+library = ""
+
+[[tunes]]
+name = "Mappo"
+description = "multi-platform social deduction game bot"
+author = "pontaoski"
+maturity = ""
+language = "Swift"
+licence = ""
+repository = "https://github.com/pontaoski/mappo"
+website = ""
+room = ""
+tags = ["game"]
+library = ""
+
+[[tunes]]
+name = "Saint Petersburg Widget"
+description = "This is a matrix widget that implements the board game \"Saint Petersburg\"."
+author = "toger5"
+maturity = ""
+language = "JavaScript"
+licence = ""
+repository = "https://github.com/toger5/st-petersburg-widget"
+website = "https://vibrant-swanson-5be55c.netlify.app"
+room = "#st-petersburg-auth:matrix.org"
+tags = ["game", "widget"]
+library = ""
+
+[[tunes]]
+name = "Matrix-Chess"
+description = "Client for playing chess on the Matrix protocol."
+author = "Bram van den Heuvel"
+maturity = ""
+language = "Elm, JavaScript"
+licence = ""
+repository = "https://github.com/BramvdnHeuvel/Matrix-Chess"
+website = "https://chess.noordstar.me/"
+room = "#elm-sdk:matrix.org"
+tags = ["game"]
+library = "matrix-elm-sdk"
+
+[[tunes]]
+name = "Matrix Plays Pokémon"
+description = "Control the mgba emulator via Matrix chat."
+author = "jaller94"
+maturity = ""
+language = "Lua, TypeScript"
+licence = "MPL-2.0"
+repository = "https://github.com/jaller94/matrix-plays-pokemon"
+website = ""
+room = ""
+tags = ["game"]
+library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "ChatStat"
+description = "An R package To Gather Stats From Chat Platforms."
+author = "Greg Sutcliffe"
+maturity = ""
+language = "R"
+licence = "MIT"
+repository = "https://github.com/GregSutcliffe/ChatStat"
+website = ""
+room = "#rmatrixstats:matrix.org"
+tags = ["stats"]
+library = ""
+
+[[tunes]]
+name = "Mindflayer"
+description = "R viz of Matrix traffic."
+author = "Matthew Hodgson"
+maturity = ""
+language = "R"
+licence = ""
+repository = "https://github.com/ara4n/mindflayer"
+website = ""
+room = ""
+tags = ["stats"]
+library = ""
+
+[[tunes]]
+name = "signASL-matrix"
+description = "A bot which allows for daily posts from signasl.org , as well as searching the signasl.org database, from within a matrix room."
+author = "symmmys"
+maturity = ""
+language = "Go"
+licence = ""
+repository = "https://github.com/mplsbugbounty/signASL-matrix"
+website = ""
+room = ""
+tags = ["ASL", "accessibility", "bot"]
+library = "mautrix-go"
+
+[[tunes]]
+name = "matrix-presents"
+description = "A presentation client that reads from a Matrix room and displays it as pretty slides!"
+author = "Half-Shot"
+maturity = ""
+language = "Vue"
+licence = "MIT"
+repository = "https://github.com/Half-Shot/matrix-presents"
+website = ""
+room = "#presents:half-shot.uk"
+tags = ["presentation", "productivity"]
+library = "matrix-js-sdk"
+
+[[tunes]]
+name = "NeoBoard"
+description = "A collaborative whiteboard widget for Matrix."
+author = "Nordeck"
+maturity = "stable"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/nordeck/matrix-neoboard"
+website = "https://nordeck.net/element-widgets/"
+room = "#nordeck:matrix.org"
+tags = ["whiteboard", "presentation", "productivity", "widget"]
+library = "matrix-widget-toolkit"
+
+[[tunes]]
+name = "Engelsystem Bot"
+description = "News and shift reminder for CCC Engelsystem"
+author = "weeman"
+maturity = "alpha"
+language = "TypeScript"
+licence = "MIT"
+repository = "https://codeberg.org/weeman/camp23-frickelsystem-bot"
+website = ""
+room = ""
+tags = ["hackspace", "CCC", "events"]
+library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "pretix Matrix inviter"
+description = "Invite pretix participants to a Matrix Room or Space."
+author = "Felix Schäfer"
+maturity = ""
+language = "Python"
+licence = "MIT"
+repository = "https://gitlab.fachschaften.org/kif/pretix-matrix-inviter"
+website = ""
+room = ""
+tags = ["pretix", "event", "tool"]
+library = ""
+
+[[tunes]]
+name = "maubot-pretix-invites"
+description = "A maubot plugin for inviting event participants from the pretix ticketing platform into a matrix room."
+author = "fedora-infra maintainers"
+maturity = ""
+language = "Python"
+licence = "MIT"
+repository = "https://github.com/MoralCode/maubot-events"
+website = ""
+room = "#eventbot-test:fedora.im"
+tags = ["pretix", "event", "bot", "tool"]
+library = "maubot"
+
+[[tunes]]
+name = "Synapse Modules for FEZ Chat"
+description = ""
+author = "Intevation GmbH"
+maturity = ""
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://heptapod.host/intevation/fac/synapse-modules"
+website = ""
+room = ""
+tags = ["list", "synapse", "module", "admin", "community management", "moderation"]
+library = ""
+
+[[tunes]]
+name = "Element Report Notifier"
+description = "This script notifies via e-mail a group of contacts about reported events (messages) of a Synapse Matrix Server."
+author = "Intevation GmbH"
+maturity = ""
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://heptapod.host/intevation/fac/matrix-report-notifier"
+website = ""
+room = ""
+tags = ["synapse", "selfhosting", "admin", "moderation", "email"]
+library = ""
+
+[[tunes]]
+name = "ILIAS integration"
+description = "Integration with the ILIAS learning management system"
+author = "Databay AG"
+maturity = ""
+language = "PHP, JavaScript"
+licence = "GPL-3.0"
+repository = "https://github.com/DatabayAG/MatrixChat/tree/r8_release"
+website = ""
+room = ""
+tags = ["learning", "community management"]
+library = ""

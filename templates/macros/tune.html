@@ -1,0 +1,11 @@
+{% macro classes(tune) %}
+maturity-{{ tune.maturity | lower }}
+
+licence-{{ tune.licence | slugify }}
+
+language-{{ tune.language | slugify }}
+
+{% for tag in tune.tags %}
+tag-{{ tag | slugify }}
+{% endfor %}
+{% endmacro %}

@@ -1,0 +1,135 @@
+{% import "macros/tune.html" as srvutils %}
+{% set tunes_data = load_data(path="content/ecosystem/tune/tune.toml") %}
+{% set licences = [] %}
+{% set languages = [] %}
+{% set tags = [] %}
+{% for tune in tunes_data.tunes %}
+{% set_global licences = licences | concat(with=tune.licence) %}
+{% set_global languages = languages | concat(with=tune.language) %}
+{% set_global tags = tags | concat(with=tune.tags) %}
+{% endfor %}
+{% set licences = licences | unique | sort %}
+{% set languages = languages | unique | sort %}
+{% set tags = tags | unique | sort %}
+
+<div class="filters">
+    <!--div class="filter-wrap">
+        <button id="filter-maturity" class="filter">
+            Maturity
+            <div class="divider"></div>
+            <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
+        </button>
+        <div id="filter-maturity-menu" class="filter-menu">
+            <p>The client can support any of the maturity levels checked.</p>
+            <div class="filter-option">
+                <input id="maturity-stable" type="checkbox" checked>
+                <label for="maturity-stable">Stable</label>
+            </div>
+            <div class="filter-option">
+                <input id="maturity-beta" type="checkbox" checked>
+                <label for="maturity-beta">Beta</label>
+            </div>
+            <div class="filter-option">
+                <input id="maturity-alpha" type="checkbox" checked>
+                <label for="maturity-alpha">Alpha</label>
+            </div>
+            <div class="filter-option">
+                <input id="maturity-obsolete" type="checkbox">
+                <label for="maturity-obsolete">Obsolete</label>
+            </div>
+            <div class="filter-option">
+                <input id="maturity-unknown" type="checkbox" checked>
+                <label for="maturity-unknown">Unknown</label>
+            </div>
+            <div class="reset-links">Select <button>all</button> - <button>none</button></div>
+        </div>
+    </div-->
+    <div class="filter-wrap">
+        <button id="filter-licence" class="filter">
+            Licence
+            <div class="divider"></div>
+            <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
+        </button>
+        <div id="filter-licence-menu" class="filter-menu">
+            <p>The client can support any of the licences checked.</p>
+            {% for licence in licences %}
+            <div class="filter-option">
+                <input id="licence-{{ licence | slugify }}" type="checkbox" checked>
+                <label for="licence-{{ licence | slugify }}">{{ licence }}</label>
+            </div>
+            {% endfor %}
+            <div class="reset-links">Select <button>all</button> - <button>none</button></div>
+        </div>
+    </div>
+    <div class="filter-wrap">
+        <button id="filter-language" class="filter">
+            Language
+            <div class="divider"></div>
+            <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
+        </button>
+        <div id="filter-language-menu" class="filter-menu">
+            <p>The client must support any of the languages checked.</p>
+            {% for language in languages %}
+            <div class="filter-option">
+                <input id="language-{{ language | slugify }}" type="checkbox" checked>
+                <label for="language-{{ language | slugify }}">{{ language }}</label>
+            </div>
+            {% endfor %}
+            <div class="reset-links">Select <button>all</button> - <button>none</button></div>
+        </div>
+    </div>
+    <div class="filter-wrap">
+        <button id="filter-tags" class="filter">
+            Tags
+            <div class="divider"></div>
+            <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
+        </button>
+        <div id="filter-tags-menu" class="filter-menu">
+            <p>The client must support any of the tags checked.</p>
+            {% for tag in tags %}
+            <div class="filter-option">
+                <input id="tag-{{ tag | slugify }}" type="checkbox">
+                <label for="tag-{{ tag | slugify }}">{{ tag }}</label>
+            </div>
+            {% endfor %}
+            <div class="reset-links">Select <button>all</button> - <button>none</button></div>
+        </div>
+    </div>
+</div>
+
+<div id="filters-overlay"></div>
+
+<div id="all-tunes" class="projects-card-deck">
+    {% for tune in tunes_data.tunes | sort(attribute="maturity") | reverse %}
+    <div>
+        <div class="project-card {{ srvutils::classes(tune=tune) }}">
+            <div class="title-row">
+                <h3>{{ tune.name }}</h3>
+                <!--div class="maturity {{ tune.maturity | lower }}">{{ tune.maturity }}</div-->
+            </div>
+            <div>{{ tune.licence }} {{ tune.language }}</div>
+            <span>{{ tune.description | safe }}</span>
+            <div class="tune-links">
+                {% if tune.website %}
+                <a href="{{ tune.website }}">
+                    {{ load_data(path="/assets/projects/website.svg") | safe }}
+                    Website
+                </a>
+                {% endif %}
+                {% if tune.repository %}
+                <a href="{{ tune.repository }}">
+                    {{ load_data(path="/assets/projects/repo.svg") | safe }}
+                    Repository
+                </a>
+                {% endif %}
+                {% if tune.room %}
+                <a href="https://matrix.to/#/{{ tune.room }}">
+                    {{ load_data(path="/assets/projects/matrix.svg") | safe }}
+                    Matrix Room
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
