@@ -527,7 +527,6 @@ room = ""
 tags = ["wiki", "knowledgebase"]
 library = ""
 
-
 [[tunes]]
 name = "Miki Forum"
 description = "The Matrix Wiki Forum"
@@ -1050,7 +1049,7 @@ library = "matrix-widget-toolkit"
 
 [[tunes]]
 name = "Engelsystem Bot"
-description = "News and shift reminder for CCC Engelsystem"
+description = "News and shift reminder for CCC Engelsystem."
 author = "weeman"
 maturity = "alpha"
 language = "TypeScript"
