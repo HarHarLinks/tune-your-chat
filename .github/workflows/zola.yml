@@ -1,27 +1,34 @@
-name: Build site
+---
 on:
   push:
     branches:
-      - main
+      - tune-your-chat
   pull_request:
     branches:
-      - main
+      - tune-your-chat
 
+permissions:
+  contents: write
+
+name: Build and deploy GH Pages
 jobs:
-  deploy:
-    name: Build the site
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Repository checkout
+      - name: checkout
         uses: actions/checkout@v4
 
-      - name: Download Zola
-        run: |
-          version='v0.18.0'
-          archive="zola-${version}-x86_64-unknown-linux-gnu.tar.gz"
-          curl -L "https://github.com/getzola/zola/releases/download/${version}/${archive}" -o "$archive"
-          tar xf "$archive"
+      - name: build pr
+        if: github.ref != 'refs/heads/tune-your-chat'
+        uses: shalzz/zola-deploy-action@v0.19.2
+        env:
+          BUILD_ONLY: true
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build
-        run: |
-          ./zola build
+      - name: build and deploy
+        if: github.ref == 'refs/heads/tune-your-chat'
+        uses: shalzz/zola-deploy-action@v0.19.2
+        env:
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}

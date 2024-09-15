@@ -2,7 +2,7 @@ name: Spell Check
 on:
   push:
     branches:
-      - main
+      - tune-your-chat
   pull_request:
 
 jobs:
