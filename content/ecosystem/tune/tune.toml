@@ -919,7 +919,7 @@ library = ""
 
 [[tunes]]
 name = "Fedora Matrix Bots"
-description = "Issue tracking & Development Envrionment for Fedora Matrix Bots."
+description = "Issue tracking & Development Environment for Fedora Matrix Bots."
 author = "fedora-infra maintainers"
 maturity = "unknown"
 language = "English"
