@@ -8,6 +8,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/anoadragon453/matrix-reminder-bot"
 room = "#matrix-reminder-bot:amorgan.xyz"
 tags = ["bot"]
+library = "matrix-nio"
 
 [[tunes]]
 name = "Maubot"
@@ -20,6 +21,7 @@ repository = "https://github.com/maubot/maubot"
 website = "https://mau.bot/"
 room = "#maubot:maunium.net"
 tags = ["bot"]
+library = "mautrix-python"
 
 [[tunes]]
 name = "Maunium Sticker Picker"
@@ -31,6 +33,7 @@ licence = "AGPL-3.0"
 repository = "https://github.com/maunium/stickerpicker"
 room = "#stickerpicker:maunium.net"
 tags = ["sticker", "widget"]
+library = ""
 
 [[tunes]]
 name = "mstickereditor"
@@ -42,6 +45,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/LuckyTurtleDev/mstickereditor"
 room = "none"
 tags = ["sticker", "tool", "addon"]
+library = ""
 
 [[tunes]]
 name = "docker-stickerpicker"
@@ -53,6 +57,7 @@ licence = "GPL-3.0"
 repository = "https://github.com/msrd0/docker-stickerpicker"
 room = ""
 tags = ["sticker", "tool", "addon"]
+library = ""
 
 [[tunes]]
 name = "[Matrix] Sticker Helper"
@@ -64,6 +69,7 @@ licence = ""
 repository = "https://hub.octt.eu.org/MatrixStickerHelper/"
 room = ""
 tags = ["sticker", "tool", "addon"]
+library = ""
 
 [[tunes]]
 name = "Matrix Sticker Setup"
@@ -76,6 +82,7 @@ repository = "https://chaos.expert/ccc-ffm/matrix-sticker-setup"
 website = "https://sticker.chaos.gratis/setup/"
 room = ""
 tags = ["sticker", "tool", "addon"]
+library = ""
 
 [[tunes]]
 name = "stickerbridge"
@@ -87,6 +94,7 @@ licence = "AGPL-3.0"
 repository = "https://codeberg.org/Didek/stickerbridge"
 room = ""
 tags = ["sticker", "tool", "MSC2545"]
+library = "matrix-nio"
 
 [[tunes]]
 name = "matrix-emoji-autoupload"
@@ -98,6 +106,7 @@ licence = ""
 repository = "https://git.astolfo.cool/natty/matrix-emoji-autoupload"
 room = ""
 tags = ["sticker", "tool", "MSC2545"]
+library = ""
 
 [[tunes]]
 name = "Hookshot"
@@ -109,6 +118,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/matrix-org/matrix-hookshot/"
 room = "https://matrix.to/#/#hookshot:half-shot.uk"
 tags = ["webhook", "admin", "GitHub", "GitLab", "Jira", "Figma", "RSS"]
+library = "matrix-appservice-bridge"
 
 [[tunes]]
 name = "Matrix Webhook Receiver"
@@ -120,6 +130,7 @@ licence = "GPL-3.0"
 repository = "https://github.com/HarHarLinks/matrix-webhook-receiver"
 room = "#matrix-webhook-receiver:matrix.org"
 tags = ["webhook", "admin"]
+library = ""
 
 [[tunes]]
 name = "matrix-webhook-gateway"
@@ -131,6 +142,7 @@ licence = "MIT"
 repository = "https://github.com/geluk/matrix-webhook-gateway"
 room = ""
 tags = ["webhook", "admin"]
+library = "matrix-appservice-bridge"
 
 [[tunes]]
 name = "Grafana to Matrix Forwarder"
