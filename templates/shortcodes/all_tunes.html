@@ -54,13 +54,19 @@
             <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
         </button>
         <div id="filter-licence-menu" class="filter-menu">
-            <p>The client can support any of the licences checked.</p>
+            <p>The entry can support any of the licences checked.</p>
             {% for licence in licences %}
+            {% if licence != "" %}
             <div class="filter-option">
                 <input id="licence-{{ licence | slugify }}" type="checkbox" checked>
                 <label for="licence-{{ licence | slugify }}">{{ licence }}</label>
             </div>
+            {% endif %}
             {% endfor %}
+            <div class="filter-option">
+                <input id="licence-" type="checkbox" checked>
+                <label for="licence-">?</label>
+            </div>
             <div class="reset-links">Select <button>all</button> - <button>none</button></div>
         </div>
     </div>
