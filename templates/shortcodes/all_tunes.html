@@ -85,7 +85,7 @@
             <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
         </button>
         <div id="filter-tags-menu" class="filter-menu">
-            <p>The client must support any of the tags checked.</p>
+            <p>The client must support all of the tags checked.</p>
             {% for tag in tags %}
             <div class="filter-option">
                 <input id="tag-{{ tag | slugify }}" type="checkbox">
