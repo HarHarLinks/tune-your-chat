@@ -489,6 +489,19 @@ tags = ["community management", "bot", "moderation"]
 library = ""
 
 [[tunes]]
+name = "Meowlnir"
+description = "An opinionated Matrix moderation bot. Currently only compatible with Synapse."
+author = "Tulir"
+maturity = "unknown"
+language = "Go"
+licence = ""
+repository = "https://github.com/maunium/meowlnir"
+website = ""
+room = "#meowlnir:maunium.net"
+tags = ["community management", "bot", "moderation"]
+library = "mautrix-go"
+
+[[tunes]]
 name = "Matrix Wrench"
 description = "Webapp to tweak Matrix rooms."
 author = "jaller94"
