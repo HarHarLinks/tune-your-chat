@@ -23,12 +23,10 @@ jobs:
         uses: shalzz/zola-deploy-action@v0.19.2
         env:
           BUILD_ONLY: true
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: build and deploy
         if: github.ref == 'refs/heads/tune-your-chat'
         uses: shalzz/zola-deploy-action@v0.19.2
         env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
+          REPOSITORY: tune-your-chat/tune-your-chat.github.io

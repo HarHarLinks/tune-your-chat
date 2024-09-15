@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://harharlinks.github.io/tune-your-chat/"
+base_url = "https://tune-your-chat.github.io"
 
 title = "Matrix.org"
 description = "The Matrix.org Foundation"
