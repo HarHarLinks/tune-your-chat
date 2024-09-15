@@ -77,13 +77,19 @@
             <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
         </button>
         <div id="filter-language-menu" class="filter-menu">
-            <p>The client must support any of the languages checked.</p>
+            <p>The entry can support any of the languages checked.</p>
             {% for language in languages %}
+            {% if language != "" %}
             <div class="filter-option">
                 <input id="language-{{ language | slugify }}" type="checkbox" checked>
                 <label for="language-{{ language | slugify }}">{{ language }}</label>
             </div>
+            {% endif %}
             {% endfor %}
+            <div class="filter-option">
+                <input id="language-" type="checkbox" checked>
+                <label for="language-">?</label>
+            </div>
             <div class="reset-links">Select <button>all</button> - <button>none</button></div>
         </div>
     </div>
