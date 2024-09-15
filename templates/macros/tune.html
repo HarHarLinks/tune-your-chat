@@ -5,6 +5,8 @@ licence-{{ tune.licence | slugify }}
 
 language-{{ tune.language | slugify }}
 
+library-{{ tune.library | slugify }}
+
 {% for tag in tune.tags %}
 tag-{{ tag | slugify }}
 {% endfor %}

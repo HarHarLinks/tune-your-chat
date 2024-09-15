@@ -3,14 +3,17 @@
 {% set licences = [] %}
 {% set languages = [] %}
 {% set tags = [] %}
+{% set libraries = [] %}
 {% for tune in tunes_data.tunes %}
 {% set_global licences = licences | concat(with=tune.licence) %}
 {% set_global languages = languages | concat(with=tune.language) %}
 {% set_global tags = tags | concat(with=tune.tags) %}
+{% set_global libraries = libraries | concat(with=tune.library) %}
 {% endfor %}
 {% set licences = licences | unique | sort %}
 {% set languages = languages | unique | sort %}
 {% set tags = tags | unique | sort %}
+{% set libraries = libraries | unique | sort %}
 
 <div class="filters">
 <div class="filter-wrap">
@@ -92,6 +95,29 @@
                 <label for="tag-{{ tag | slugify }}">{{ tag }}</label>
             </div>
             {% endfor %}
+            <div class="reset-links">Select <button>all</button> - <button>none</button></div>
+        </div>
+    </div>
+    <div class="filter-wrap">
+        <button id="filter-library" class="filter">
+            Library
+            <div class="divider"></div>
+            <img src="/assets/down-arrow.svg" alt="Downward facing arrow">
+        </button>
+        <div id="filter-library-menu" class="filter-menu">
+            <p>The entry can use any of the libraries checked.</p>
+            {% for library in libraries %}
+            {% if library != "" %}
+            <div class="filter-option">
+                <input id="library-{{ library | slugify }}" type="checkbox" checked>
+                <label for="library-{{ library | slugify }}">{{ library }}</label>
+            </div>
+            {% endif %}
+            {% endfor %}
+            <div class="filter-option">
+                <input id="library-" type="checkbox" checked>
+                <label for="library-">?</label>
+            </div>
             <div class="reset-links">Select <button>all</button> - <button>none</button></div>
         </div>
     </div>
