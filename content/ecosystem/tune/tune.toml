@@ -1163,3 +1163,146 @@ website = ""
 room = ""
 tags = ["SDK", "bot", "library"]
 library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Dokumentation"
+description = "Documentation of the Matrix Service of Technische Universität Dresden"
+author = "TU Dresden"
+maturity = "unknown"
+language = "German, English"
+licence = "CC-BY-SA-4.0"
+repository = "https://github.com/matrix-tu-dresden-de/Dokumentation"
+website = "https://doc.matrix.tu-dresden.de/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "etke.cc Matrix Bridges Help"
+description = "Help for the bridges offered by etke.cc, generally applicable"
+author = "etke.cc"
+maturity = "unknown"
+language = "English"
+licence = ""
+repository = ""
+website = "https://etke.cc/help/bridges/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "EMS Docs Discord Bridge"
+description = "Element Matrix Services documentation"
+author = "Element"
+maturity = "unknown"
+language = "English"
+licence = ""
+repository = ""
+website = "https://ems-docs.element.io/books/element-cloud-documentation/page/discord-bridge"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "Join Matrix"
+description = "Guide and Homeserver list"
+author = "Austin Huang"
+maturity = "unknown"
+language = "English"
+licence = "CC BY-SA 4.0"
+repository = ""
+website = "https://joinmatrix.org/"
+room = ""
+tags = ["Documentation", "Guide", "Server List"]
+library = ""
+
+[[tunes]]
+name = "envs.net Documentation"
+description = "Documentation of the Matrix Service of envs.net"
+author = "envs.net"
+maturity = "unknown"
+language = "English"
+licence = "CC BY-SA-4.0"
+repository = "https://git.envs.net/envs/matrix-doc"
+website = "https://matrix-help.envs.net/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = "TU Dresden Dokumentation"
+
+[[tunes]]
+name = "Element help and support"
+description = "Element's Docs"
+author = "Element"
+maturity = "stable"
+language = "English"
+licence = ""
+repository = ""
+website = "https://element.io/help"
+room = ""
+tags = ["Documentation", "Guide", "Element"]
+library = ""
+
+[[tunes]]
+name = "Matrix tips the don't tell you"
+description = "This is a random combination of FAQ and guides about Matrix."
+author = "cos"
+maturity = "unknown"
+language = "English"
+licence = ""
+repository = ""
+website = "https://wordsmith.social/cos/matrix-tips-they-dont-tell-you"
+room = ""
+tags = ["Documentation", "Tips", "Guide"]
+library = ""
+
+[[tunes]]
+name = "Matrix.org docs"
+description = ""
+author = "Matrix.org"
+maturity = "unknown"
+language = "English"
+licence = "CC-BY-SA-4.0"
+repository = ""
+website = "https://matrix.org/docs/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "Tutoriel Element"
+description = "Utiliser la messagerie Element"
+author = "Jill"
+maturity = "unknown"
+language = "French"
+licence = ""
+repository = ""
+website = "https://jilldanslesinternets.fr/tutoriel-element/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "Matrix Tipps"
+description = ""
+author = "JokerGermany"
+maturity = "unknown"
+language = "German"
+licence = "AGPL-3.0"
+repository = "https://github.com/JokerGermany/Matrix-Tipps"
+website = ""
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
+
+[[tunes]]
+name = "Matrix Synapse Homeserver Guides"
+description = "This aims to be a one-stop hub for getting into the Matrix ecosystem and making the most of a Synapse server, from configuring it for the first time to delving into more complex development."
+author = "tcpipuk"
+maturity = "unknown"
+language = "English"
+licence = "AGPL-3.0"
+repository = "https://github.com/tcpipuk/tcpipuk.github.io/"
+website = "https://tcpipuk.github.io/synapse/index.html"
+room = ""
+tags = ["Documentation", "Guide", "Synapse"]
+library = ""
