@@ -86,6 +86,7 @@ extend-ignore-re = [
 automations = "automations" # valid word
 requestor = "requestor" # valid spelling variant
 wrk = "wrk" # application name
+Tutoriel = "Tutoriel" # french
 
 # (user)names
 feld = "feld"
