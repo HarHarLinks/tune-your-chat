@@ -1124,3 +1124,42 @@ website = ""
 room = ""
 tags = ["learning", "community management"]
 library = ""
+
+[[tunes]]
+name = "headjack"
+description = "A rust bot framework/library for connecting to Matrix. Jack into Matrix."
+author = "arcuru"
+maturity = "unknown"
+language = "Rust"
+licence = "MIT"
+repository = "https://github.com/arcuru/headjack"
+website = ""
+room = ""
+tags = ["SDK", "bot", "library"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "baibot"
+description = "A Matrix bot for using different capabilities (text-generation, text-to-speech, speech-to-text, image-generation, etc.) of AI / Large Language Models (OpenAI, Anthropic, etc.)"
+author = "Slavi Pantaleev"
+maturity = "beta"
+language = "Rust"
+licence = "AGPL-3.0-or-later"
+repository = "https://github.com/etkecc/baibot"
+website = ""
+room = ""
+tags = ["LLM", "ChatGPT", "bot"]
+library = "mxlink"
+
+[[tunes]]
+name = "mxlink"
+description = "A library for connecting (linking) to the Matrix Client Server API (for building bots, etc.)"
+author = "Slavi Pantaleev"
+maturity = "beta"
+language = "Rust"
+licence = "LGPL-3.0"
+repository = "https://github.com/etkecc/rust-mxlink"
+website = ""
+room = ""
+tags = ["SDK", "bot", "library"]
+library = "matrix-rust-sdk"
