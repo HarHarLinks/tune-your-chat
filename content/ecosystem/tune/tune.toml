@@ -7,7 +7,7 @@ language = "Python"
 licence = "Apache-2.0"
 repository = "https://github.com/anoadragon453/matrix-reminder-bot"
 room = "#matrix-reminder-bot:amorgan.xyz"
-tags = ["bot"]
+tags = ["bot", "reminder"]
 library = "matrix-nio"
 
 [[tunes]]
@@ -189,7 +189,7 @@ language = "Python"
 licence = "WTFPL"
 repository = "https://gitlab.com/uhoreg/matrix_daily_calendar"
 room = ""
-tags = ["CalDav"]
+tags = ["CalDav", "reminder"]
 library = ""
 
 [[tunes]]
@@ -201,7 +201,7 @@ language = "Python"
 licence = "WTFPL"
 repository = "https://gitlab.com/HarHarLinks/matrix_event_calendar"
 room = ""
-tags = ["CalDav"]
+tags = ["CalDav", "reminder"]
 library = ""
 
 [[tunes]]
@@ -213,19 +213,19 @@ language = "Go"
 licence = ""
 repository = "https://github.com/MTRNord/matrix-calendar-bot"
 room = ""
-tags = ["bot", "CalDav", "iCal"]
+tags = ["bot", "CalDav", "iCal", "reminder"]
 library = "mautrix-go"
 
 [[tunes]]
 name = "nbspeventbot"
-description = "This is a matrix bot to parse events from a calendar file/address and post martrix messages containing event information."
+description = "This is a matrix bot to parse events from a calendar file/address and post matrix messages containing event information."
 author = "chaotikum"
 maturity = "unknown"
 language = "Python"
 licence = ""
 repository = "https://git.chaotikum.org/chaotikum/infra/nbspeventbot"
 room = ""
-tags = ["bot", "iCal", "hackspace", "event"]
+tags = ["bot", "iCal", "hackspace", "event", "reminder"]
 library = ""
 
 [[tunes]]
@@ -1057,7 +1057,7 @@ licence = "MIT"
 repository = "https://codeberg.org/weeman/camp23-frickelsystem-bot"
 website = ""
 room = ""
-tags = ["bot", "hackspace", "CCC", "events"]
+tags = ["bot", "hackspace", "CCC", "events", "reminder"]
 library = "matrix-bot-sdk"
 
 [[tunes]]
