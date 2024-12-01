@@ -1332,3 +1332,16 @@ website = ""
 room = ""
 tags = ["list", "synapse", "module", "admin", "community management", "moderation"]
 library = ""
+
+[[tunes]]
+name = "Awesome Matrix"
+description = "A curated list of things related to the Matrix ecosystem, including software, research, etc."
+author = "jryans"
+maturity = "unknown"
+language = "English"
+licence = "CC-BY-4.0"
+repository = "https://github.com/jryans/awesome-matrix"
+website = ""
+room = ""
+tags = ["list"]
+library = ""
