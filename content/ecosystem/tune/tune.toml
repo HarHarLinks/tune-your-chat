@@ -1306,3 +1306,16 @@ website = "https://tcpipuk.github.io/synapse/index.html"
 room = ""
 tags = ["Documentation", "Guide", "Synapse"]
 library = ""
+
+[[tunes]]
+name = "perlbot"
+description = "Remove tracking parameters from your URLs"
+author = "saces"
+maturity = "unknown"
+language = "Python"
+licence = "AGPL-3.0"
+repository = "https://codeberg.org/c-base/perlbot"
+website = ""
+room = "#botorium:c-base.org"
+tags = ["bot", "privacy"]
+library = "simplematrixbotlib"
