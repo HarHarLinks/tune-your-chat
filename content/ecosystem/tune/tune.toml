@@ -177,7 +177,7 @@ language = "JavaScript"
 licence = "MIT"
 repository = "https://codeberg.org/herkulessi/room-architect"
 room = ""
-tags = ["power levels", "community management"]
+tags = ["bot", "power levels", "community management"]
 library = "matrix-bot-sdk"
 
 [[tunes]]
@@ -213,7 +213,7 @@ language = "Go"
 licence = ""
 repository = "https://github.com/MTRNord/matrix-calendar-bot"
 room = ""
-tags = ["CalDav", "iCal"]
+tags = ["bot", "CalDav", "iCal"]
 library = "mautrix-go"
 
 [[tunes]]
@@ -225,7 +225,7 @@ language = "Python"
 licence = ""
 repository = "https://git.chaotikum.org/chaotikum/infra/nbspeventbot"
 room = ""
-tags = ["iCal", "hackspace", "event"]
+tags = ["bot", "iCal", "hackspace", "event"]
 library = ""
 
 [[tunes]]
@@ -290,7 +290,7 @@ licence = "MIT"
 repository = "https://github.com/jaywink/matrix-alertmanager"
 website = ""
 room = ""
-tags = ["Alertmanager", "monitoring", "admin"]
+tags = ["bot", "Alertmanager", "monitoring", "admin"]
 library = "matrix-js-sdk"
 
 [[tunes]]
@@ -407,7 +407,7 @@ licence = "NWHML"
 repository = "https://gitdub.sosnowkadub.de/kim/matrix-openweathermap-bot"
 website = ""
 room = ""
-tags = ["weather"]
+tags = ["bot", "weather"]
 library = ""
 
 [[tunes]]
@@ -420,7 +420,7 @@ licence = "MIT"
 repository = "https://github.com/i10b/matrix-commit"
 website = ""
 room = ""
-tags = ["GitHub"]
+tags = ["bot", "GitHub"]
 library = "simplematrixbotlib"
 
 [[tunes]]
@@ -641,7 +641,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/Half-Shot/matrix-zammad"
 website = ""
 room = ""
-tags = ["zammad"]
+tags = ["bot", "zammad"]
 library = "matrix-bot-sdk"
 
 [[tunes]]
@@ -849,7 +849,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/krombel/matrix-register-bot"
 website = ""
 room = "#matrix-register-bot:msg-net.de"
-tags = ["tool", "admin", "selfhosting", "registration"]
+tags = ["bot", "tool", "admin", "selfhosting", "registration"]
 library = ""
 
 [[tunes]]
@@ -875,7 +875,7 @@ licence = "AGPL-3.0"
 repository = "https://github.com/moan0s/matrix-registration-bot"
 website = ""
 room = "#matrix-registration-bot:hyteck.de"
-tags = ["tool", "admin", "selfhosting", "registration"]
+tags = ["bot", "tool", "admin", "selfhosting", "registration"]
 library = "simplematrixbotlib"
 
 [[tunes]]
@@ -940,7 +940,7 @@ licence = ""
 repository = "https://github.com/pontaoski/mappo"
 website = ""
 room = ""
-tags = ["game"]
+tags = ["bot", "game"]
 library = ""
 
 [[tunes]]
@@ -1057,7 +1057,7 @@ licence = "MIT"
 repository = "https://codeberg.org/weeman/camp23-frickelsystem-bot"
 website = ""
 room = ""
-tags = ["hackspace", "CCC", "events"]
+tags = ["bot", "hackspace", "CCC", "events"]
 library = "matrix-bot-sdk"
 
 [[tunes]]
