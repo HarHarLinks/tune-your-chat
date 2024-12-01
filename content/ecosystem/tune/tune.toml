@@ -394,7 +394,7 @@ licence = ""
 repository = "https://gist.github.com/HarHarLinks/5eedfbac6e0bc19f41b58be6087524c0"
 website = ""
 room = ""
-tags = ["admin", "tool"]
+tags = ["admin", "tool", "synapse"]
 library = ""
 
 [[tunes]]
@@ -849,7 +849,7 @@ licence = "Apache-2.0"
 repository = "https://github.com/krombel/matrix-register-bot"
 website = ""
 room = "#matrix-register-bot:msg-net.de"
-tags = ["bot", "tool", "admin", "selfhosting", "registration"]
+tags = ["bot", "tool", "admin", "selfhosting", "registration", "synapse"]
 library = ""
 
 [[tunes]]
