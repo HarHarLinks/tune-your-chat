@@ -1384,3 +1384,16 @@ website = ""
 room = "#menuflow:bramen.com.co"
 tags = ["bot"]
 library = "mautrix-python"
+
+[[tunes]]
+name = "Migrate Your Existing Matrix Account"
+description = "The Harder but Safe Way!"
+author = "Sofie"
+maturity = "unknown"
+language = "English"
+licence = ""
+repository = ""
+website = "https://soupglasses.substack.com/p/migrate-your-existing-matrix-account"
+room = ""
+tags = ["Documentation", "Guide", "migration", "EMS", "selfhosting"]
+library = ""
