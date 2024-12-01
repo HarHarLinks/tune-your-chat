@@ -1345,3 +1345,42 @@ website = ""
 room = ""
 tags = ["list"]
 library = ""
+
+[[tunes]]
+name = "Timmynator"
+description = "A very simple demo bot orchestrator based on Trixnity."
+author = "connect2x"
+maturity = "unknown"
+language = "Kotlin"
+licence = ""
+repository = "https://gitlab.com/connect2x/timmynator/"
+website = ""
+room = "#trixnity:imbitbu.de"
+tags = ["bot", "demo"]
+library = ""
+
+[[tunes]]
+name = "YARB"
+description = "Yet Another Reminder Bot"
+author = "dfuchss"
+maturity = "unknown"
+language = "Kotlin"
+licence = "GPL-3.0"
+repository = "https://github.com/dfuchss/YARB"
+website = ""
+room = "#trixnity:imbitbu.de"
+tags = ["bot", "reminder"]
+library = "trixnity"
+
+[[tunes]]
+name = "menuflow"
+description = "A manager of bots that have conversation flows."
+author = "iKonoTelecomunicaciones"
+maturity = "stable"
+language = "Python"
+licence = "MIT"
+repository = "https://github.com/iKonoTelecomunicaciones/menuflow"
+website = ""
+room = "#menuflow:bramen.com.co"
+tags = ["bot"]
+library = "mautrix-python"
