@@ -1319,3 +1319,16 @@ website = ""
 room = "#botorium:c-base.org"
 tags = ["bot", "privacy"]
 library = "simplematrixbotlib"
+
+[[tunes]]
+name = "Tchap Synapse modules"
+description = "Modules to modify the behavior of the Synapse homeserver"
+author = "Tchap"
+maturity = "unknown"
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://github.com/orgs/tchapgouv/repositories?type=source&q=module"
+website = ""
+room = ""
+tags = ["list", "synapse", "module", "admin", "community management", "moderation"]
+library = ""
