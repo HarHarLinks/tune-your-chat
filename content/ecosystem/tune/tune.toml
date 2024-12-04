@@ -1397,3 +1397,16 @@ website = "https://soupglasses.substack.com/p/migrate-your-existing-matrix-accou
 room = ""
 tags = ["Documentation", "Guide", "migration", "EMS", "selfhosting"]
 library = ""
+
+[[tunes]]
+name = "Matrix Client Tutorial"
+description = ""
+author = "uhoreg"
+maturity = "alpha"
+language = "English"
+licence = "Apache-2.0"
+repository = "https://gitlab.com/uhoreg/matrix-tutorial"
+website = "https://uhoreg.gitlab.io/matrix-tutorial/"
+room = ""
+tags = ["Documentation", "Guide"]
+library = ""
