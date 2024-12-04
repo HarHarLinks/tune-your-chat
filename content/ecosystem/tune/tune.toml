@@ -1423,3 +1423,16 @@ website = ""
 room = "#releasetracker:kittenface.studio"
 tags = ["bot", "tool"]
 library = "ruby-matrix-sdk"
+
+[[tunes]]
+name = "SFU set guide"
+description = "The VOIP backend driving your self-hosted matrixRTC instance"
+author = "spaetz"
+maturity = "unknown"
+language = "English"
+licence = ""
+repository = ""
+website = "https://sspaeth.de/2024/11/sfu/"
+room = ""
+tags = ["voip", "Guide", "Documentation"]
+library = "ruby-matrix-sdk"
