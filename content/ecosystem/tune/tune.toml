@@ -1410,3 +1410,16 @@ website = "https://uhoreg.gitlab.io/matrix-tutorial/"
 room = ""
 tags = ["Documentation", "Guide"]
 library = ""
+
+[[tunes]]
+name = "Matrix Releasetracker"
+description = "Release tracker that posts updates into Matrix rooms."
+author = "ananace"
+maturity = "unknown"
+language = "Ruby"
+licence = "MIT"
+repository = "https://github.com/ananace/matrix-releasetracker"
+website = ""
+room = "#releasetracker:kittenface.studio"
+tags = ["bot", "tool"]
+library = "ruby-matrix-sdk"
