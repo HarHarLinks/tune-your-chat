@@ -1436,3 +1436,16 @@ website = "https://sspaeth.de/2024/11/sfu/"
 room = ""
 tags = ["voip", "Guide", "Documentation"]
 library = "ruby-matrix-sdk"
+
+[[tunes]]
+name = "messageflag"
+description = "Unread message indicator for Matrix and email accounts"
+author = "forestix"
+maturity = "unknown"
+language = "Python"
+licence = "GPL-3.0"
+repository = "https://codeberg.org/forestix/messageflag"
+website = ""
+room = ""
+tags = ["tool"]
+library = ""
