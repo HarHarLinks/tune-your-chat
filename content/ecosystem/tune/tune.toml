@@ -1425,7 +1425,7 @@ tags = ["bot", "tool"]
 library = "ruby-matrix-sdk"
 
 [[tunes]]
-name = "SFU set guide"
+name = "SFU setup guide"
 description = "The VOIP backend driving your self-hosted matrixRTC instance"
 author = "spaetz"
 maturity = "unknown"
