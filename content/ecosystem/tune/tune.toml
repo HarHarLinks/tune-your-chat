@@ -1243,7 +1243,7 @@ tags = ["Documentation", "Guide", "Element"]
 library = ""
 
 [[tunes]]
-name = "Matrix tips the don't tell you"
+name = "Matrix tips they don't tell you"
 description = "This is a random combination of FAQ and guides about Matrix."
 author = "cos"
 maturity = "unknown"
