@@ -1501,3 +1501,16 @@ website = "https://bsdbox.de/en/matrix"
 room = ""
 tags = ["Documentation", "Guide", "Element"]
 library = ""
+
+[[tunes]]
+name = "Entering the Matrix with Hookshot"
+description = ""
+author = "Anil Madhavapeddy"
+maturity = "unknown"
+language = "English"
+licence = "Copyright"
+repository = ""
+website = "https://anil.recoil.org/notes/enter-the-matrix-hookshot"
+room = ""
+tags = ["Guide", "RSS/Atom"]
+library = ""
