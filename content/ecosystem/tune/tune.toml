@@ -1449,3 +1449,16 @@ website = ""
 room = ""
 tags = ["tool"]
 library = ""
+
+[[tunes]]
+name = "matrix-admin-bot"
+description = "This bot helps to keep the matrix channels maintainable and implements functionality which runs bulk invite to the channels for new users."
+author = "paritytech"
+maturity = "unknown"
+language = "TypeScript"
+licence = "Apache-2.0"
+repository = "https://github.com/paritytech/matrix-admin-bot"
+website = ""
+room = ""
+tags = ["tool", "admin", "bot", "community management", "power levels"]
+library = "matrix-bot-sdk"
