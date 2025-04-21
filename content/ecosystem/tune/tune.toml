@@ -117,7 +117,7 @@ language = "TypeScript"
 licence = "Apache-2.0"
 repository = "https://github.com/matrix-org/matrix-hookshot/"
 room = "https://matrix.to/#/#hookshot:half-shot.uk"
-tags = ["webhook", "admin", "GitHub", "GitLab", "Jira", "Figma", "RSS"]
+tags = ["webhook", "admin", "GitHub", "GitLab", "Jira", "Figma", "RSS/Atom"]
 library = "matrix-appservice-bridge"
 
 [[tunes]]
