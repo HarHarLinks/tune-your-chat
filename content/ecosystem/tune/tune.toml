@@ -1462,3 +1462,16 @@ website = ""
 room = ""
 tags = ["tool", "admin", "bot", "community management", "power levels"]
 library = "matrix-bot-sdk"
+
+[[tunes]]
+name = "matrix-guardian"
+description = "A friendly, lightweight Matrix bot for protecting the people."
+author = "cyb3rko"
+maturity = "alpha"
+language = "Go"
+licence = "MPL-2.0"
+repository = "https://github.com/cyb3rko/matrix-guardian"
+website = ""
+room = ""
+tags = ["bot", "community management", "moderation"]
+library = "mautrix-go"
