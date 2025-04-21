@@ -1475,3 +1475,29 @@ website = ""
 room = ""
 tags = ["bot", "community management", "moderation"]
 library = "mautrix-go"
+
+[[tunes]]
+name = "Was ist Matrix"
+description = "Eine Einführung zu Matrix."
+author = "marzlberger"
+maturity = "unknown"
+language = "Deutsch"
+licence = "Copyright"
+repository = ""
+website = "https://bsdbox.de/matrix"
+room = ""
+tags = ["Documentation", "Guide", "Element"]
+library = ""
+
+[[tunes]]
+name = "What is the Matrix?"
+description = "An introduction and guide to Matrix."
+author = "marzlberger"
+maturity = "unknown"
+language = "English"
+licence = "Copyright"
+repository = ""
+website = "https://bsdbox.de/en/matrix"
+room = ""
+tags = ["Documentation", "Guide", "Element"]
+library = ""
