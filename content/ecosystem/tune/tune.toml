@@ -1477,11 +1477,11 @@ tags = ["bot", "community management", "moderation"]
 library = "mautrix-go"
 
 [[tunes]]
-name = "Was ist Matrix"
+name = "Was ist Matrix?"
 description = "Eine Einführung zu Matrix."
 author = "marzlberger"
 maturity = "unknown"
-language = "Deutsch"
+language = "German"
 licence = "Copyright"
 repository = ""
 website = "https://bsdbox.de/matrix"
