@@ -1670,3 +1670,16 @@ website = "https://sumnerevans.com/tags/e2ee/"
 room = ""
 tags = ["Documentation", "e2ee"]
 library = ""
+
+[[tunes]]
+name = "delightful matrix"
+description = "A curated list of delightful Matrix resources, implementations and clients."
+author = "Yarmo"
+maturity = "unknown"
+language = "English"
+licence = "CC0-1.0"
+repository = ""
+website = "https://delightful.coding.social/delightful_matrix/"
+room = ""
+tags = ["list"]
+library = ""
