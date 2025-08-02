@@ -1696,3 +1696,16 @@ website = ""
 room = "#testmatrix:sspaeth.de"
 tags = ["list"]
 library = ""
+
+[[tunes]]
+name = "matrixcli"
+description = "Sophisticated yet simple command line chat client for linux that implements the matrix communication protocol, supporting multiple accounts configuration and systemd units"
+author = "saadjsct"
+maturity = "obsolete"
+language = "Python"
+licence = "GPL-3.0-or-later"
+repository = "https://github.com/saadjsct/matrixcli"
+website = ""
+room = ""
+tags = ["client", "cli"]
+library = "matrix-python-sdk"
