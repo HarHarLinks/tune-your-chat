@@ -1631,3 +1631,42 @@ website = "https://ztfr.de/how-to-moderate-your-synpase-matrix-server-with-draup
 room = ""
 tags = ["Guide", "moderation"]
 library = ""
+
+[[tunes]]
+name = "Olm"
+description = "Documentation of the libolm implementation of the Double Ratches cryptographic standard"
+author = "Matrix.org"
+maturity = "unknown"
+language = "English"
+licence = "Apache-2.0"
+repository = "https://gitlab.matrix.org/matrix-org/olm/-/tree/master/docs"
+website = ""
+room = ""
+tags = ["Documentation", "e2ee"]
+library = ""
+
+[[tunes]]
+name = "Unable to Decrypt a Message on Matrix"
+description = ""
+author = "Nico"
+maturity = "unknown"
+language = "English"
+licence = "Copyright"
+repository = ""
+website = "https://blog.neko.dev/posts/unable-to-decrypt-matrix.html"
+room = ""
+tags = ["Documentation", "e2ee"]
+library = ""
+
+[[tunes]]
+name = "Message Security in Matrix"
+description = ""
+author = "Sumner Evans"
+maturity = "unknown"
+language = "English"
+licence = "Copyright"
+repository = ""
+website = "https://sumnerevans.com/tags/e2ee/"
+room = ""
+tags = ["Documentation", "e2ee"]
+library = ""
