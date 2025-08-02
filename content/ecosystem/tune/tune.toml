@@ -1579,3 +1579,29 @@ website = ""
 room = ""
 tags = ["script", "admin", "tool"]
 library = ""
+
+[[tunes]]
+name = "nio-smith"
+description = "a modular bot for @matrix-org, written in python using matrix-nio, supporting end-to-end-encryption out of the box"
+author = "alturiak"
+maturity = "unknown"
+language = "Python"
+licence = "Apache-2.0"
+repository = "https://codeberg.org/alturiak/nio-smith"
+website = ""
+room = "#nio-smith:pack.rocks"
+tags = ["bot"]
+library = "matrix-nio"
+
+[[tunes]]
+name = "gerstnet.it"
+description = "Blog entries and guides about Matrix"
+author = "alturiak"
+maturity = "unknown"
+language = "German"
+licence = "Copyright"
+repository = ""
+website = "https://gerstner.it/"
+room = ""
+tags = ["knowledgebase", "Tips", "Guide"]
+library = ""
