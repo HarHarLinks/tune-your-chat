@@ -1683,3 +1683,16 @@ website = "https://delightful.coding.social/delightful_matrix/"
 room = ""
 tags = ["list"]
 library = ""
+
+[[tunes]]
+name = "testmatrix"
+description = "Matrix Sanity Tester"
+author = "spaetz"
+maturity = "unknown"
+language = "Python"
+licence = "AGPL-3.0-or-later"
+repository = "https://codeberg.org/spaetz/testmatrix"
+website = ""
+room = "#testmatrix:sspaeth.de"
+tags = ["list"]
+library = ""
