@@ -44,7 +44,7 @@ language = "Rust"
 licence = "Apache-2.0"
 repository = "https://github.com/LuckyTurtleDev/mstickereditor"
 room = "none"
-tags = ["sticker", "tool", "addon"]
+tags = ["sticker", "tool", "addon", "Telegram"]
 library = ""
 
 [[tunes]]
@@ -1605,3 +1605,16 @@ website = "https://gerstner.it/"
 room = ""
 tags = ["knowledgebase", "Tips", "Guide"]
 library = ""
+
+[[tunes]]
+name = "tg2mx_bot"
+description = "Bot to import telegram sticker packs to matrix MSC2545 (Ponies) stickers to use with FluffyChat, Nheko, Cinny etc"
+author = "msrd0"
+maturity = "unknown"
+language = "Rust"
+licence = "EPL-2.0"
+repository = "https://github.com/msrd0/tg2mx_bot"
+website = ""
+room = "#tg2mx:msrd0.de"
+tags = ["sticker", "tool", "MSC2545", "Telegram"]
+library = "matrix-rust-sdk"
