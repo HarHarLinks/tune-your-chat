@@ -1527,3 +1527,42 @@ website = ""
 room = ""
 tags = ["module", "Element", "synapse", "admin", "community management", "moderation"]
 library = ""
+
+[[tunes]]
+name = "Aminda's Matrix Docs"
+description = ""
+author = "Aminda Suomalainen"
+maturity = "unknown"
+language = "English"
+licence = "CC-BY-4.0"
+repository = ""
+website = "https://aminda.eu/matrix/"
+room = ""
+tags = ["module", "Element", "synapse", "admin", "community management", "moderation"]
+library = ""
+
+[[tunes]]
+name = "matrix-tombstone-room"
+description = "Script to send a tombstone event"
+author = "Aminda Suomalainen"
+maturity = "unknown"
+language = "bash"
+licence = "CC0-1.0"
+repository = "https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/matrix-tombstone-room.bash"
+website = ""
+room = ""
+tags = ["script", "admin", "tool"]
+library = ""
+
+[[tunes]]
+name = "matrix-upgrade-room"
+description = "Script for client-driven room upgrades"
+author = "Aminda Suomalainen"
+maturity = "unknown"
+language = "bash"
+licence = "CC0-1.0"
+repository = "https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/matrix-upgrade-room.bash"
+website = ""
+room = ""
+tags = ["script", "admin", "tool"]
+library = ""
