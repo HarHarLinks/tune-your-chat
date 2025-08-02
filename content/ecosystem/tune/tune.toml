@@ -1514,3 +1514,16 @@ website = "https://anil.recoil.org/notes/enter-the-matrix-hookshot"
 room = ""
 tags = ["Guide", "RSS/Atom"]
 library = ""
+
+[[tunes]]
+name = "Element Modules"
+description = "A repository collecting a bunch of Element Web & Synapse modules to extend & modify system behaviour."
+author = "Element"
+maturity = "stable"
+language = "TypeScript"
+licence = "AGPL-3-or-later or Commercial"
+repository = "https://github.com/element-hq/element-modules/tree/main"
+website = ""
+room = ""
+tags = ["module", "Element", "synapse", "admin", "community management", "moderation"]
+library = ""
