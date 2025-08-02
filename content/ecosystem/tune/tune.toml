@@ -1618,3 +1618,16 @@ website = ""
 room = "#tg2mx:msrd0.de"
 tags = ["sticker", "tool", "MSC2545", "Telegram"]
 library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "How to Moderate your Synpase Matrix Server with Draupnir"
+description = ""
+author = "Zeitfresser"
+maturity = "unknown"
+language = "English"
+licence = "CC-BY-NC-SA-4.0"
+repository = ""
+website = "https://ztfr.de/how-to-moderate-your-synpase-matrix-server-with-draupnir/"
+room = ""
+tags = ["Guide", "moderation"]
+library = ""
