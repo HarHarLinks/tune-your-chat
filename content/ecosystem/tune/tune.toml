@@ -1566,3 +1566,16 @@ website = ""
 room = ""
 tags = ["script", "admin", "tool"]
 library = ""
+
+[[tunes]]
+name = "Feline Matrix Assistant Toolkit"
+description = "Interactive script for room upgrade"
+author = "Cat"
+maturity = "unknown"
+language = "PowerShell"
+licence = "MIT"
+repository = "https://github.com/FSG-Cat/Cats-PS-Collection/blob/main/Feline%20Matrix%20Assistant/Feline%20Matrix%20Assistant%20Toolkit.ps1"
+website = ""
+room = ""
+tags = ["script", "admin", "tool"]
+library = ""
