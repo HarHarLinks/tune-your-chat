@@ -1722,3 +1722,16 @@ website = ""
 room = ""
 tags = ["client", "cli"]
 library = "matrix-rust-sdk"
+
+[[tunes]]
+name = "Matrix POSIX SDK"
+description = "A POSIX shell compliant [matrix] client server API implementation."
+author = "The one with the braid"
+maturity = "beta"
+language = "Shell"
+licence = "EUPL-1.2"
+repository = "https://gitlab.com/TheOneWithTheBraid/matrix-posix-sdk"
+website = ""
+room = ""
+tags = ["sdk", "cli"]
+library = ""
