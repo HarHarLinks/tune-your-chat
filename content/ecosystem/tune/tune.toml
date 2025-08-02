@@ -1709,3 +1709,16 @@ website = ""
 room = ""
 tags = ["client", "cli"]
 library = "matrix-python-sdk"
+
+[[tunes]]
+name = "mx"
+description = "A command-line client for querying a Matrix account"
+author = "Andy Balaam"
+maturity = "unknown"
+language = "Rust"
+licence = "AGPL-3.0-or-later"
+repository = "https://codeberg.org/andybalaam/mx"
+website = ""
+room = ""
+tags = ["client", "cli"]
+library = "matrix-rust-sdk"
