@@ -1735,3 +1735,16 @@ website = ""
 room = ""
 tags = ["sdk", "cli"]
 library = ""
+
+[[tunes]]
+name = "ejabberd"
+description = "Robust, Scalable and Extensible Realtime Platform XMPP Server + MQTT Broker + SIP Service"
+author = "Process One"
+maturity = "stable"
+language = "Erlang"
+licence = "GPL-2.0"
+repository = "https://gitlab.com/TheOneWithTheBraid/matrix-posix-sdk"
+website = "https://gitlab.com/TheOneWithTheBraid/matrix-posix-sdk"
+room = ""
+tags = ["homeserver", "xmpp"]
+library = ""
