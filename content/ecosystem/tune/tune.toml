@@ -1748,3 +1748,16 @@ website = "https://gitlab.com/TheOneWithTheBraid/matrix-posix-sdk"
 room = ""
 tags = ["homeserver", "xmpp"]
 library = ""
+
+[[tunes]]
+name = "Rust federation tester"
+description = "A Matrix-Federation-Tester in Rust"
+author = "MTRNord"
+maturity = "unknown"
+language = "Rust"
+licence = "AGPL-3.0"
+repository = "https://github.com/MTRNord/rust-federation-tester"
+website = "https://connectivity-tester.mtrnord.blog"
+room = ""
+tags = ["admin", "tool", "federation", "tool"]
+library = ""
