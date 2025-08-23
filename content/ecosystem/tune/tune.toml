@@ -706,7 +706,7 @@ licence = ""
 repository = "https://github.com/matrix-org/matrix-federation-tester"
 website = "https://federationtester.matrix.org"
 room = ""
-tags = ["admin", "tool", "federation", "tool"]
+tags = ["admin", "tool", "federation"]
 library = "gomatrixserverlib"
 
 [[tunes]]
@@ -1759,5 +1759,5 @@ licence = "AGPL-3.0"
 repository = "https://github.com/MTRNord/rust-federation-tester"
 website = "https://connectivity-tester.mtrnord.blog"
 room = ""
-tags = ["admin", "tool", "federation", "tool"]
+tags = ["admin", "tool", "federation"]
 library = ""
