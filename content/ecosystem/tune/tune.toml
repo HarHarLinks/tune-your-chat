@@ -1761,3 +1761,16 @@ website = "https://connectivity-tester.mtrnord.blog"
 room = ""
 tags = ["admin", "tool", "federation"]
 library = ""
+
+[[tunes]]
+name = "resolvematrix.dev"
+description = "Server discovery debugging tool"
+author = "turt2live"
+maturity = "unknown"
+language = "Go"
+licence = "Apache-2.0"
+repository = "https://github.com/t2bot/matrix-key-server"
+website = "http://resolvematrix.dev/"
+room = ""
+tags = ["admin", "tool", "federation"]
+library = ""
