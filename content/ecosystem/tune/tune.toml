@@ -1774,3 +1774,16 @@ website = "http://resolvematrix.dev/"
 room = ""
 tags = ["admin", "tool", "federation"]
 library = ""
+
+[[tunes]]
+name = "magrix"
+description = "send git bundles over matrix"
+author = "saces"
+maturity = "unknown"
+language = "Go"
+licence = "AGPL-3.0"
+repository = "https://codeberg.org/determinant/magrix"
+website = ""
+room = "#magrix:c-base.org"
+tags = ["cli", "addon", "cli"]
+library = "mautrix-go"
