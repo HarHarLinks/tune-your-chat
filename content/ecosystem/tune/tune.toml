@@ -1750,16 +1750,16 @@ tags = ["homeserver", "xmpp"]
 library = ""
 
 [[tunes]]
-name = "Rust federation tester"
-description = "A Matrix-Federation-Tester in Rust"
+name = "Matrix Connectivitytester"
+description = "A Matrix-Connectivity-Tester with Rust Federation tester"
 author = "MTRNord"
 maturity = "unknown"
-language = "Rust"
+language = "Rust, Javascript"
 licence = "AGPL-3.0"
-repository = "https://github.com/MTRNord/rust-federation-tester"
+repository = "https://github.com/MTRNord/matrix-connection-tester-ui"
 website = "https://connectivity-tester.mtrnord.blog"
 room = ""
-tags = ["admin", "tool", "federation"]
+tags = ["admin", "tool", "federation", "connection"]
 library = ""
 
 [[tunes]]
