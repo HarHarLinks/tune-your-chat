@@ -713,26 +713,13 @@ library = "gomatrixserverlib"
 name = "EMS Matrix Migration"
 description = "This tool will attempt to migrate an old Matrix account to a new (already created) account."
 author = "Element"
-maturity = "beta"
+maturity = "obsolete"
 language = ""
 licence = "proprietary"
 repository = ""
 website = "https://ems.element.io/tools/matrix-migration"
 room = ""
 tags = ["migration", "EMS", "tool"]
-library = ""
-
-[[tunes]]
-name = "EMS Migration Tools"
-description = ""
-author = "Element"
-maturity = "unknown"
-language = ""
-licence = "proprietary"
-repository = ""
-website = "https://ems.element.io/tools/account-migration"
-room = ""
-tags = ["migration", "EMS", "Slack", "Rocket.Chat", "FlowDock", "tool"]
 library = ""
 
 [[tunes]]
