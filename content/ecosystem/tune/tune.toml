@@ -762,6 +762,19 @@ tags = ["migration", "tool"]
 library = "matrix-js-sdk"
 
 [[tunes]]
+name = "migrate-matrix"
+description = "A tool to migrate Matirx accounts between servers"
+author = "tilosp"
+maturity = "alpha"
+language = "Rust"
+licence = "Apache-2.0"
+repository = "https://github.com/tilosp/migrate-matrix"
+website = "https://crates.io/crates/migrate-matrix"
+room = ""
+tags = ["migration", "cli", "tool"]
+library = "matrix-rust-sdk"
+
+[[tunes]]
 name = "Matrix Message Decrypter"
 description = "Decrypt Matrix Megolm messages using E2E key backups."
 author = "vidister"
