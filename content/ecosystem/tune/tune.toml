@@ -576,7 +576,7 @@ licence = ""
 repository = ""
 website = "https://summit2023.matrixmeetup.de/conference/talk/7KBHAZ/"
 room = ""
-tags = ["discord", "migration", "video", "talk", "community management"]
+tags = ["Discord", "migration", "video", "talk", "community management"]
 library = ""
 
 [[tunes]]
@@ -1252,7 +1252,7 @@ licence = ""
 repository = ""
 website = "https://ems-docs.element.io/books/element-cloud-documentation/page/discord-bridge"
 room = ""
-tags = ["Documentation", "Guide"]
+tags = ["Documentation", "Guide", "Discord"]
 library = ""
 
 [[tunes]]
@@ -1265,7 +1265,7 @@ licence = "CC BY-SA 4.0"
 repository = ""
 website = "https://joinmatrix.org/"
 room = ""
-tags = ["Documentation", "Guide", "Server List"]
+tags = ["Documentation", "Guide", "Server List", "Discord", "Telegram"]
 library = ""
 
 [[tunes]]
